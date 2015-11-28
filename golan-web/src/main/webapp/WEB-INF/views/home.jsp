@@ -3,7 +3,10 @@
 
     <head>
 
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
         <title>Golan WEB</title>
 
         <!-- CSS -->
@@ -17,23 +20,20 @@
 
         <div class="background-image"></div>
         <div class="content">
-            <hgroup>
-                <h1></h1>
-                <h2>Gestión Beneficiarios Farmacia Popular</h2>
-            </hgroup>
-            
             <form class="form-signin">
+                <h2>Gestión Beneficiarios Farmacia Popular</h2><br><br>
                 <div class="group">
-                    <input type="email" required=""><span class="highlight"></span><span class="bar"></span>
+                    <input type="email" required><span class="highlight"></span><span class="bar"></span>
                     <label>Correo Electrónico</label>
                 </div>
                 <div class="group">
-                    <input type="password" required=""><span class="highlight"></span><span class="bar"></span>
+                    <input type="password" required><span class="highlight"></span><span class="bar"></span>
                     <label>Contraseña</label>
                 </div>
                 <button type="submit" class="button buttonBlue">Iniciar Sesión</button>
+                <a href="#">¿Olvidó su contraseña?</a>
             </form>
-            
+
             <footer>
                 <p>Desarrollado por <a href="http://www.golanerp.cl/" target="_blank">Golan Ltda</a></p>
             </footer>
