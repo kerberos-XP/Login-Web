@@ -1,37 +1,15 @@
 /* El estilo escrito aquí será usado para la pantalla de login después de aplicar el bootstrap.css */
 
-/** { box-sizing:border-box; }*/
-
-.background-image {
-    position: fixed;
-    top: -20px;
-    left: -20px;
-    right: -40px;
-    bottom: -40px;
-    z-index: 0;
-
-    background-image: url(http://www.academiacampus.es/wp-content/uploads/2014/01/140078475.jpg);
-    width: auto;
-    height: auto;
-    background-size: cover;
-
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-    filter: blur(2px);
-}
-
-.content {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    margin-left: 20px;
-    margin-right: 20px;
+.super-container { 
+    background: url(https://people.gnome.org/~halfline/stripes.png); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 body {
+    padding-top: 50px;
     font-family: sans-serif;
     background: #fff;
     -webkit-font-smoothing: antialiased;
@@ -50,16 +28,13 @@ h1 {
     font-family: sans-serif;
     font-weight: bold;
     color: #4a89dc; 
-    font-size: 62px;
 }
 
 h2, h3 { 
     color: #4a89dc;
-    text-align: center;
 }
 
 form {
-    width: 380px;
     margin: 4em auto;
     padding: 3em 2em 2em 2em;
     background: #fafafa;
@@ -93,7 +68,7 @@ input {
 
 input:focus { outline: none; }
 
-/* Label */
+/* Label */ 
 
 label {
     color: #999; 
@@ -112,7 +87,7 @@ label {
 }
 
 
-/* active */
+/* Active */ 
 
 input:focus ~ label, input.used ~ label {
     top: -20px;
@@ -123,11 +98,11 @@ input:focus ~ label, input.used ~ label {
     -o-transform: scale(.75);
 
     transform: scale(.75); left: -2px;
-    /* font-size: 14px; */
+    font-size: 14px; 
     color: #4a89dc;
 }
 
-/* Underline */
+/* Underline */ 
 
 .bar {
     position: relative;
@@ -154,11 +129,11 @@ input:focus ~ label, input.used ~ label {
 
 .bar:after { right: 50%; }
 
-/* active */
+/* Active */ 
 
 input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
 
-/* Highlight */
+/* Highlight */ 
 
 .highlight {
     position: absolute;
@@ -170,7 +145,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
     opacity: 0.5;
 }
 
-/* active */
+/* Active */ 
 
 input:focus ~ .highlight {
     -webkit-animation: inputHighlighter 0.3s ease;
@@ -180,7 +155,7 @@ input:focus ~ .highlight {
     animation: inputHighlighter 0.3s ease;
 }
 
-/* Animations */
+/* Animations */ 
 
 @-webkit-keyframes inputHighlighter {
     from { background: #4a89dc; }
@@ -192,7 +167,7 @@ input:focus ~ .highlight {
     to 	{ width: 0; background: transparent; }
 }
 
-/* Button */
+/* Button */ 
 
 .button {
     position: relative;
@@ -225,7 +200,7 @@ input:focus ~ .highlight {
 }
 .button:focus { outline: 0; }
 
-/* Button modifiers */
+/* Button modifiers */ 
 
 .buttonBlue {
     background: #4a89dc;
@@ -234,75 +209,16 @@ input:focus ~ .highlight {
 
 .buttonBlue:hover { background: #357bd8; }
 
-/* Ripples container */
-
-/*.ripples {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background: transparent;
-}*/
-
-/* Ripples circle */
-
-/*.ripplesCircle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.25);
-}*/
-
-/*.ripples.is-active .ripplesCircle {
-    -webkit-animation: ripples .4s ease-in;
-    animation: ripples .4s ease-in;
-}*/
-
-/* Ripples animation */
-
-/*@-webkit-keyframes ripples {
-    0% { opacity: 0; }
-
-    25% { opacity: 1; }
-
-    100% {
-        width: 200%;
-        padding-bottom: 200%;
-        opacity: 0;
-    }
-}*/
-/*
-@keyframes ripples {
-    0% { opacity: 0; }
-
-    25% { opacity: 1; }
-
-    100% {
-        width: 200%;
-        padding-bottom: 200%;
-        opacity: 0;
-    }
-}*/
-
 footer { text-align: center; }
 
 footer p {
-    color: #888;
+    color: #fff;
     font-size: 13px;
     letter-spacing: .4px;
 }
 
 footer a {
-    color: #4a89dc;
+    color: #58D3F7;
     text-decoration: none;
     -webkit-transition: all .2s ease;
     -ms-transition: all .2s ease;
