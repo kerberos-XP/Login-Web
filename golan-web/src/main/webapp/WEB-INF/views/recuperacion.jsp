@@ -29,7 +29,7 @@
                                     <label>Correo electrónico registrado</label>
                                 </div>
                                 <button type="submit" class="button buttonBlue">Recuperar contraseña</button>
-                                <a href="home">Espera ¡ya la recordé!</a>
+                                <a href="inicio">Espera ¡ya la recordé!</a>
                             </form>
                             <footer>
                                 <p>Un producto de <a href="http://www.golanerp.cl/" target="_blank">Golan ERP</a></p>
