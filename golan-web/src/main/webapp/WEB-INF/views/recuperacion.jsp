@@ -26,14 +26,10 @@
                             <form class="form-signin">
                                 <div class="group">
                                     <input type="email" required><span class="highlight"></span><span class="bar"></span>
-                                    <label>Correo electrónico</label>
+                                    <label>Correo electrónico registrado</label>
                                 </div>
-                                <div class="group">
-                                    <input type="password" required><span class="highlight"></span><span class="bar"></span>
-                                    <label>Contraseña</label>
-                                </div>
-                                <button type="submit" class="button buttonBlue">Iniciar sesión</button>
-                                <a href="recuperacion">Olvidé mi contraseña</a>
+                                <button type="submit" class="button buttonBlue">Recuperar contraseña</button>
+                                <a href="home">Espera ¡ya la recordé!</a>
                             </form>
                             <footer>
                                 <p>Un producto de <a href="http://www.golanerp.cl/" target="_blank">Golan ERP</a></p>
