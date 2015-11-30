@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="resources/css/bootstrap.css">
         <link rel="stylesheet" href="resources/css/login.css">
 
+        <link rel="icon" href="resources/img/favicon.ico">
+        
     </head>
 
     <body>
@@ -33,7 +35,7 @@
                                     <label>Contraseña</label>
                                 </div>
                                 <button type="submit" class="button buttonBlue">Iniciar sesión</button>
-                                <a href="recuperacion">Olvidé mi contraseña</a>
+                                <a href="recuperar">Olvidé mi contraseña</a>
                             </form>
                             <footer>
                                 <p>Un producto de <a href="http://www.golanerp.cl/" target="_blank">Golan ERP</a></p>

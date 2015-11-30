@@ -10,19 +10,16 @@ import org.springframework.web.servlet.ModelAndView;
  */
 public class RecuperarContraseñaControllerTest {
     
-    public RecuperarContraseñaControllerTest() {
-    }
-    
     /**
-     * Test del método recuperación de la clase RecuperarContraseñaController.
+     * Test del method recuperación de la clase RecuperarContraseñaController.
      * Se espera que retorne a la vista nombrada recuperación.
      */
     @Test
     public void testRecuperacion() {
-        RecuperarContraseñaController controller = new RecuperarContraseñaController();
+        RecuperarController controller = new RecuperarController();
         ModelAndView modelAndView = controller.recuperacion();
         
-        assertEquals("recuperacion", modelAndView.getViewName());
+        assertEquals("recuperar", modelAndView.getViewName());
     }
     
 }

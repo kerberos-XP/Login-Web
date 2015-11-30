@@ -12,6 +12,8 @@
         <!-- CSS -->
         <link rel="stylesheet" href="resources/css/bootstrap.css">
         <link rel="stylesheet" href="resources/css/login.css">
+        
+        <link rel="icon" href="resources/img/favicon.ico">
 
     </head>
 

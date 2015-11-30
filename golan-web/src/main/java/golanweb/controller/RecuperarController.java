@@ -12,12 +12,12 @@ import org.springframework.web.servlet.ModelAndView;
  * @author Omar Paché
  */
 @Controller
-public class RecuperarContraseñaController {
+public class RecuperarController {
     
-    private final Logger log = Logger.getLogger(RecuperarContraseñaController.class);
+    private final Logger log = Logger.getLogger(RecuperarController.class);
     
-    @RequestMapping("/recuperacion")
+    @RequestMapping("/recuperar")
     public ModelAndView recuperacion() {
-        return new ModelAndView("recuperacion");
+        return new ModelAndView("recuperar");
     }
 }

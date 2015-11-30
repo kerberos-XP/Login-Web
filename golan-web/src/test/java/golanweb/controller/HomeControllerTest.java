@@ -14,7 +14,7 @@ public class HomeControllerTest {
     }
     
     /**
-     * Test del método inicio de la clase HomeController.
+     * Test del method inicio de la clase HomeController.
      * Se espera que retorne a la vista nombrada inicio.
      */
     @Test
