@@ -1,8 +1,6 @@
-# golan-web
+# login-web
 
 Arquetipo de proyecto web para Netbeans configurado para realizar su deploy de manera local en un servidor de aplicaciones Wildfly 8.2.1. 
-
-* Proyecto desplegado en el PaaS Openshift y corriendo en http://web-golanerp.rhcloud.com/
 
 ## Tecnologías utilizadas
 
