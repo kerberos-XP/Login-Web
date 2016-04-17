@@ -16,7 +16,7 @@ public class RecuperarController {
     
     private final Logger log = Logger.getLogger(RecuperarController.class);
     
-    @RequestMapping("/recuperar")
+    @RequestMapping("recuperar")
     public ModelAndView recuperacion() {
         return new ModelAndView("recuperar");
     }

@@ -1,4 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 
     <head>
@@ -25,16 +27,16 @@
                     <div class="col-sm-6 col-md-4 col-md-offset-4">
                         <h3 class="text-center login-title"></h3>
                         <div class="account-wall">
-                            <form class="form-signin">
+                            <form class="form-signin" autocomplete="off" action="login" method='post'>
                                 <div class="group">
-                                    <input type="email" required><span class="highlight"></span><span class="bar"></span>
+                                    <input type="email" id="correo" required><span class="highlight"></span><span class="bar"></span>
                                     <label>Correo electrónico</label>
                                 </div>
                                 <div class="group">
-                                    <input type="password" required><span class="highlight"></span><span class="bar"></span>
+                                    <input type="password" id="contraseña" required><span class="highlight"></span><span class="bar"></span>
                                     <label>Contraseña</label>
                                 </div>
-                                <button type="submit" class="button buttonBlue">Iniciar sesión</button>
+                                <button type="submit"  value="Login!" class="button buttonBlue">Iniciar sesión</button>
                                 <a href="recuperar">Olvidé mi contraseña</a>
                             </form>
                             <footer>

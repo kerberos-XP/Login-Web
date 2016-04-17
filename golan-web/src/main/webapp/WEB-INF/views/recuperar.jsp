@@ -25,7 +25,7 @@
                     <div class="col-sm-6 col-md-4 col-md-offset-4">
                         <h3 class="text-center login-title"></h3>
                         <div class="account-wall">
-                            <form class="form-signin">
+                            <form class="form-signin" autocomplete="off">
                                 <div class="group">
                                     <input type="email" required><span class="highlight"></span><span class="bar"></span>
                                     <label>Correo electrónico registrado</label>

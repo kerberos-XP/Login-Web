@@ -86,7 +86,6 @@ label {
     transition: all 0.2s ease;
 }
 
-
 /* Active */ 
 
 input:focus ~ label, input.used ~ label {
